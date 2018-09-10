@@ -14,7 +14,7 @@
     "star"
   ],
   "scripts": {
-    "build": "babel src/ -d Libraries "
+    "build": "babel src/ -d ./"
   },
   "author": "Klemen Kastelic <klemen.kast@gmail.com> (http://kastelic.net/)",
   "license": "ISC",
