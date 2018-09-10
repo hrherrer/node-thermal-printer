@@ -13,6 +13,9 @@
     "epson",
     "star"
   ],
+  "scripts": {
+    "build": "babel src/ -d Libraries "
+  },
   "author": "Klemen Kastelic <klemen.kast@gmail.com> (http://kastelic.net/)",
   "license": "ISC",
   "bugs": {
@@ -24,5 +27,10 @@
     "pngjs": "^3.2.0",
     "unorm": "^1.4.1",
     "write-file-queue": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
